@@ -17,4 +17,4 @@ export { RtpEndpointWrapper } from './endpoints/rtp/rtp-endpoint-wrapper';
 export { WebRtcEndpointWrapper } from './endpoints/webrtc/webrtc-endpoint-wrapper';
 export { IWebRTCEndpointWrapper } from './endpoints/webrtc/webrtc-endpoint.interface';
 
-export { connectToKurentoServer, createPipeline } from './utils/kurento-utils';
+export { connectToKurentoServer, createPipeline, createComposite } from './utils/kurento-utils';
