@@ -19,3 +19,13 @@ export async function createPipeline(kurentoClient: any) {
 
     return pipeline;
 }
+
+/**
+ *
+ * @export
+ * @param {*} pipeline
+ * @returns
+ */
+export async function createComposite(pipeline: any) {
+    return await pipeline.create('Composite');
+}
